@@ -13,11 +13,16 @@ The `netlify.toml` file contains the build configuration:
   command = "npm run build"
   publish = "dist/lead-gen-landing/browser"
 
+[build.environment]
+  NODE_VERSION = "22.14.0"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
 ```
+
+> **Note:** The `NODE_VERSION` environment variable ensures Netlify uses the correct Node.js version (v22.14.0) required by Angular 21.
 
 ### Deployment Steps
 

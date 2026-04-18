@@ -2,9 +2,11 @@
 
 ## Prerequisites
 
-- Node.js (v18 or higher)
+- Node.js (v20.19+ or v22.12+ recommended - **v22.14.0 preferred**)
 - npm (v10 or higher)
 - Angular CLI (v21.2.6)
+
+> **Important:** Angular 21 requires Node.js v20.19+ or v22.12+. Using Node.js v18 will cause build failures.
 
 ## Installation
 
@@ -67,5 +69,13 @@ npm install
 ### Build errors
 Ensure you're using the correct Node.js version:
 ```bash
-node --version  # Should be v18+
+node --version  # Should be v20.19+ or v22.12+
 ```
+
+If you're using an older version, upgrade Node.js:
+- **Using nvm (recommended):**
+  ```bash
+  nvm install 22.14.0
+  nvm use 22.14.0
+  ```
+- **Download from:** https://nodejs.org/

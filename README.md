@@ -28,9 +28,11 @@
 
 Before you begin, ensure you have:
 
-- Node.js (v18 or higher)
-- npm (v10 or higher)
-- Angular CLI (v21.2.6)
+- **Node.js v20.19+ or v22.12+** (v22.14.0 recommended)
+- npm v10 or higher
+- Angular CLI v21.2.6
+
+> ⚠️ **Important:** Angular 21 requires Node.js v20.19+ or v22.12+. The project will not build with Node.js v18.
 
 ## 🚀 Quick Start
 
